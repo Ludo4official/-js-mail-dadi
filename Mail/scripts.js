@@ -3,7 +3,7 @@ let mail = prompt('Inserisci qui la tua email!')
 
 console.log ('La mail inserita dall utente è', mail, typeof mail)
 
-if (mail !== mailAutorizzate[0]) {
+if (mail != mailAutorizzate[0, 1, 2, 3, 4]) {
     alert('ATTENZIONE! Mail non valida!')
     console.log ('La mail', mail, 'non è valida!')
 }
